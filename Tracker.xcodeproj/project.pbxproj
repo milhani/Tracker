@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		BA673E532BE3D7AA008C1E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA673E522BE3D7AA008C1E27 /* AppDelegate.swift */; };
 		BA673E552BE3D7B2008C1E27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA673E542BE3D7B2008C1E27 /* SceneDelegate.swift */; };
-		BAFAE53E2BDAD99F006BFAE6 /* TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAE53D2BDAD99F006BFAE6 /* TrackerApp.swift */; };
-		BAFAE5402BDAD99F006BFAE6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAE53F2BDAD99F006BFAE6 /* Persistence.swift */; };
-		BAFAE5432BDAD99F006BFAE6 /* Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAFAE5412BDAD99F006BFAE6 /* Tracker.xcdatamodeld */; };
 		BAFAE5472BDAD9A3006BFAE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFAE5462BDAD9A3006BFAE6 /* Assets.xcassets */; };
 		BAFAE5522BDADA14006BFAE6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFAE5512BDADA14006BFAE6 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,11 +17,7 @@
 		BA673E522BE3D7AA008C1E27 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Tracker-sprint_14/Tracker/Helpers/AppDelegate.swift"; sourceTree = "<group>"; };
 		BA673E542BE3D7B2008C1E27 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../Tracker-sprint_14/Tracker/Helpers/SceneDelegate.swift"; sourceTree = "<group>"; };
 		BAFAE53A2BDAD99F006BFAE6 /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAFAE53D2BDAD99F006BFAE6 /* TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerApp.swift; sourceTree = "<group>"; };
-		BAFAE53F2BDAD99F006BFAE6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		BAFAE5422BDAD99F006BFAE6 /* Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tracker.xcdatamodel; sourceTree = "<group>"; };
 		BAFAE5462BDAD9A3006BFAE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BAFAE5482BDAD9A3006BFAE6 /* Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tracker.entitlements; sourceTree = "<group>"; };
 		BAFAE5512BDADA14006BFAE6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,11 +51,7 @@
 		BAFAE53C2BDAD99F006BFAE6 /* Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				BAFAE53D2BDAD99F006BFAE6 /* TrackerApp.swift */,
-				BAFAE53F2BDAD99F006BFAE6 /* Persistence.swift */,
 				BAFAE5462BDAD9A3006BFAE6 /* Assets.xcassets */,
-				BAFAE5482BDAD9A3006BFAE6 /* Tracker.entitlements */,
-				BAFAE5412BDAD99F006BFAE6 /* Tracker.xcdatamodeld */,
 				BAFAE5512BDADA14006BFAE6 /* Launch Screen.storyboard */,
 				BA673E522BE3D7AA008C1E27 /* AppDelegate.swift */,
 				BA673E542BE3D7B2008C1E27 /* SceneDelegate.swift */,
@@ -142,9 +131,6 @@
 			files = (
 				BA673E552BE3D7B2008C1E27 /* SceneDelegate.swift in Sources */,
 				BA673E532BE3D7AA008C1E27 /* AppDelegate.swift in Sources */,
-				BAFAE53E2BDAD99F006BFAE6 /* TrackerApp.swift in Sources */,
-				BAFAE5402BDAD99F006BFAE6 /* Persistence.swift in Sources */,
-				BAFAE5432BDAD99F006BFAE6 /* Tracker.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,19 +349,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BAFAE5412BDAD99F006BFAE6 /* Tracker.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BAFAE5422BDAD99F006BFAE6 /* Tracker.xcdatamodel */,
-			);
-			currentVersion = BAFAE5422BDAD99F006BFAE6 /* Tracker.xcdatamodel */;
-			path = Tracker.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BAFAE5322BDAD99F006BFAE6 /* Project object */;
 }
